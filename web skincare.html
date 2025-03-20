@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skincare Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            max-width: 800px;
+            margin: auto;
+        }
+        header {
+            background: #ff6f61;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 30px;
+            background: #ffe0dc;
+        }
+        .btn {
+            display: inline-block;
+            padding: 8px 15px;
+            background: #ff6f61;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .product-list {
+            text-align: center;
+            padding: 30px;
+        }
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .product {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            width: 200px;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .price {
+            display: block;
+            font-size: 16px;
+            color: #ff6f61;
+            margin: 8px 0;
+        }
+        button {
+            padding: 8px;
+            background: #ff6f61;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #ff6f61;
+            color: white;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Skincare Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h2>Perawatan Kulit Terbaik untuk Anda</h2>
+        <p>Temukan produk skincare berkualitas tinggi yang cocok untuk kulit Anda.</p>
+        <a href="#products" class="btn">Belanja Sekarang</a>
+    </section>
+    
+    <section id="products" class="product-list">
+        <h2>Produk Kami</h2>
+        <div class="products">
+            <div class="product">
+                <img src="serum.png" alt="Serum Skincare" style="width: 100%; border-radius: 10px;">
+                <h3>Serum Wajah</h3>
+                <p>Serum dengan kandungan vitamin C untuk kulit cerah.</p>
+                <span class="price">Rp 150.000</span>
+                <button>Beli Sekarang</button>
+            </div>
+            <div class="product">
+                <img src="mois.png" alt="Moisturizer Skincare" style="width: 100%; border-radius: 10px;">
+                <h3>Moisturizer</h3>
+                <p>Melembapkan dan menjaga keseimbangan kulit.</p>
+                <span class="price">Rp 120.000</span>
+                <button>Beli Sekarang</button>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Skincare Store. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
